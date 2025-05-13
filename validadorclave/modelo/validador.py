@@ -68,6 +68,9 @@ class ReglaValidacionCalisto(ReglaValidacion):
                 return True
         return False
 
+    def es_valida(self, clave):
+        return True
+
 
 
 class Validador:
